@@ -1,0 +1,64 @@
+<html>
+<head>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="pregister.css">
+</head>
+<body>
+    <div class="header">
+      <p>
+    
+       <b><i><u class="catch" style="font-size: 30px; ">CATCH ON CAM</u></i></b>
+       <img src="cam.jpg" alt="Cam" width="40" height="30"style="margin-left:20px;">
+       
+     </p>
+  </div>
+  <form action="pregister.php" method="POST">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <div class="form-group">
+                      <label>FirstName</label>
+                      <input type="text" class="form-control" placeholder="Enter FirstName" name="fname" required=""/>
+                  </div>
+                  <div class="form-group">
+                    <label>PH NO</label>
+                    <input type="text" class="form-control" placeholder="Enter Phonenumber" name="number" required=""/>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" name="email" required=""/>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="submit"  value="Register">&nbsp;&nbsp;
+                  <a  href="login.html"> go to login</a>
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label>LastName</label>
+                  <input type="text" class="form-control" placeholder="Enter LastName" name="lname" required=""/>
+                </div>
+                <div class="form-group">
+                <label>Upload link of your works here</label>
+                <br>
+                <textarea name="link"></textarea>
+            </div>
+              
+              <div class="form-group">
+                <label>Gender</label><br>
+                <input type="radio" name="gender"  value="male">
+                <label  for="gender">Male</label>
+                <input type="radio" name="gender"  value="female">
+                <label  for="gender">FeMale</label>
+            </div>
+            </div>
+          </div>
+      </div>
+  </form>
+  <br>
+  <br>
+</body>
+</html>
+

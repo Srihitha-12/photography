@@ -1,0 +1,45 @@
+<html
+<head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="header">
+    <p>
+  
+     <b><i><u class="catch" style="font-size: 30px; ">CATCH ON CAM</u></i></b>
+     <img src="cam.jpg" alt="Cam" width="40" height="30"style="margin-left:20px;"> 
+     <form method="post" action="login.php">
+
+     </form>
+
+   </p>
+   
+</div>
+
+<p name="error" style="color:aliceblue;font-size: 20px;"></p>
+<div class="box">
+<h2>Admin Login</h2>
+
+<form method="post" action="adlogin.php">
+<div class="form-group inputBox">
+  <label>Username:</label>
+  <input name='uname' type="text" class="form-control" required="">
+</div>
+<div class="form-group inputBox">
+  <label>Password:</label>
+  <input  name='pw'  type="password" class="form-control"  required="">
+  
+</div>
+<input type="submit"  value="Login">
+
+
+</form>
+</div>
+
+<br>
+<br>
+<br>
+</body>
+</html>

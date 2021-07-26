@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" href="register.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body style="background-color:black;">
+    <div class="header">
+      <p>
+    
+       <b><i><u class="catch" style="font-size: 30px; ">CATCH ON CAM</u></i></b>
+       <img src="cam.jpg" alt="Cam" width="40" height="30"style="margin-left:20px;">
+       
+     </p>
+  </div>
+  <form method="post" action="register.php">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <div class="form-group">
+                      <label>FirstName</label>
+                      <input type="text" class="form-control" placeholder="Enter FirstName" name="fname" required=""/>
+                  </div>
+                  <div class="form-group">
+                    <label>UserName</label>
+                    <input type="text" class="form-control" placeholder="Enter UserName" name="username" required=""/>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Enter Email" name="email" required=""/>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="submit"  value="Register">&nbsp;&nbsp;
+                  <a  href="login.html"> go to login
+                    </a>
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label>LastName</label>
+                  <input type="text" class="form-control" placeholder="Enter LastName" name="lname" required=""/>
+                </div>
+                <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password" name="password"required=""/>
+            </div>
+            <div class="form-group">
+              <label>Phno</label>
+              <input type="text" class="form-control" placeholder="Enter Phonenumber" name="number" required=""/>
+          </div>
+              
+              <div class="form-group">
+                <label>Gender</label><br>
+               <input type="radio" name="gender" value="male"/>
+			   <label>male</label>
+			    <input type="radio" name="gender" value="female"/>
+			   <label>female</label>
+			   
+            </div>
+            </div>
+          </div>
+      </div>
+  </form>
+  <br>
+  <br>
+</body>
+</html>

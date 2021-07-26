@@ -1,0 +1,105 @@
+.container-fluid h2{
+  color:#6495ED;
+  margin-top:30px;
+ margin-left:60px; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-weight: italic;
+  border-left: 10px solid cornsilk;
+}
+u.catch{
+    margin-left:0px;
+    text-shadow:6px 2px Black ;
+     color:white ;
+     font-size:70px;
+     border: 2px solid black;
+  
+  }
+  a.login{
+      float: right;
+      color: grey;
+      border: 2px solid whitesmoke;
+      border-radius: 10px;
+      padding: 8px;
+
+  }
+  body {
+  background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  div.all{
+  padding: 0 7px 0 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 6px solid #777;
+  
+  
+  }
+ 
+  div.a{
+  padding:10px;
+   border: 6px double #777;
+   border-radius: 20px;
+   margin-left:20px;
+   margin-right:20px;
+   box-shadow:5px 5px black;
+ 
+    }
+    div.col-3 {
+    margin: 50px;
+  
+    background-color: azure;
+    width: 200px;
+     border: 3px double #777;
+     border-radius: 10px;
+    padding:15px;
+    box-shadow: 40px 20px  grey;
+   
+  }
+  div.col-3 img {
+    width: 100%;
+    height:180px;
+  }
+  
+  
+ 
+  div.button {
+      align-self: center;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  div.header
+  {
+    background-color: CadetBlue;
+    padding:10px;
+   
+   
+  }
+ 
+  u.catch{
+    margin-left:20px;
+    text-shadow:6px 2px Black ;
+     color:white ;
+     font-size:30px;
+     border: 2px solid black;
+  
+  }
+.container{
+  margin-top:30px;
+}
+.container h2{
+  margin-top:px; color:#6495ED; border-left: 10px solid whitesmoke;
+}
+.container ul{
+  font-size:20px; margin-left: 30px;color:black; margin-top:0px;
+}
+.container:hover {
+  background:whitesmoke;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+  

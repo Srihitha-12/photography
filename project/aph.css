@@ -1,0 +1,36 @@
+
+  u.catch{
+      margin-left:20px;
+      text-shadow:6px 2px Black ;
+       color:white ;
+       font-size:30px;
+       border: 2px solid black;
+    
+    }
+  div.header
+    {
+      background-color: CadetBlue;
+      padding:10px;
+    }
+  body{
+      background-color: black;
+  }
+  h2{
+      margin-top: 90px;
+      font-size: 20px;
+      color:cadetblue;
+      float:left;
+      background-color:whitesmoke;
+      padding: 5px;
+      border-radius: 2px;
+       }
+  div.navi.button{
+    padding: 7px;
+    font-size: 30px;
+    color:cadetblue;
+      background-color: whitesmoke;
+      padding: 5px;
+      border-radius: 2px;
+
+  }
+ 

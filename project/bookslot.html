@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" href="register.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body style="background-color:black;">
+    <div class="header">
+      <p>
+    
+       <b><i><u class="catch" style="font-size: 30px; ">CATCH ON CAM</u></i></b>
+       <img src="cam.jpg" alt="Cam" width="40" height="30"style="margin-left:20px;">
+       
+     </p>
+  </div>
+  <form method="post" action="slot.php">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                <label>Occasions</label>
+                <select class="form-select" name="occ">
+                    <option selected>select here</option>
+                    <option value="marriage">marriage</option>
+                    <option value="birthday">birthday</option>
+                    <option value="other">other</option>
+                  </select>
+            
+              </div>
+                  <div class="form-group">
+                    <label>Address</label>
+                    <textarea  class="form-control" placeholder="address" name="address" required=""></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Start-date</label>
+                    <input type="date" class="form-control"  name="sd" required=""/>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="submit"  value="Bookslot">&nbsp;&nbsp;
+                  <a  href="main.html"> go to home
+                    </a>
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label>If others mention here</label>
+                  <input type="text" class="form-control"  name="other" />
+                </div>
+                <div class="form-group">
+                    <label>Phno</label>
+                    <input type="text" class="form-control" placeholder="Enter Phonenumber" name="number" required=""/>
+                </div>
+                    
+                <div class="form-group">
+                <label>End-date</label>
+                <input type="date" class="form-control"  name="ed"required=""/>
+            </div>
+            
+              
+            </div>
+          </div>
+      </div>
+  </form>
+  <br>
+  <br>
+</body>
+</html>
